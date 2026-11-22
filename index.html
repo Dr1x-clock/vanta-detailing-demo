@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101112">
+  <meta name="description" content="VANTA DETAILING — демонстрационный сайт премиальной детейлинг-студии. Полировка, химчистка, защитные покрытия и комплексный уход.">
+  <title>VANTA DETAILING — студия автомобильного детейлинга</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">К содержимому</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="VANTA DETAILING, в начало страницы">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text" aria-hidden="true">VANTA<small>DETAILING</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false" hidden>
+        <span class="menu-icon" aria-hidden="true"></span>
+        <span class="menu-label">Меню</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Основная навигация">
+        <a href="#services">Услуги</a>
+        <a href="#prices">Цены</a>
+        <a href="#studio">О студии</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="button button--outline header-cta" href="#contact">Запись</a>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="hero" aria-labelledby="hero-title">
+      <picture class="hero-visual">
+        <source media="(max-width: 640px)" srcset="assets/images/hero-mobile.webp">
+        <img src="assets/images/hero.webp" srcset="assets/images/hero-medium.webp 1100w, assets/images/hero.webp 1920w" sizes="100vw" width="1920" height="1100" alt="" fetchpriority="high">
+      </picture>
+      <div class="shell hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow eyebrow--rule">Студия автомобильного детейлинга</p>
+          <h1 id="hero-title">Характер<br><span>в деталях.</span></h1>
+          <p class="hero-description">Возвращаем глубину цвета, ухаживаем за салоном и защищаем кузов от повседневных нагрузок.</p>
+          <div class="hero-actions">
+            <a class="button button--primary" href="#contact">Записаться</a>
+            <a class="button button--outline" href="#services">Смотреть услуги</a>
+          </div>
+        </div>
+        <p class="hero-note"><span aria-hidden="true"></span>Демонстрационный проект</p>
+      </div>
+    </section>
+
+    <div class="hero-benefits">
+      <ul class="shell">
+        <li>Осмотр перед началом работ</li>
+        <li>Подбор ухода под материал</li>
+        <li>Проверка при выдаче</li>
+      </ul>
+    </div>
+
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="shell">
+        <div class="section-head section-head--split">
+          <div>
+            <p class="eyebrow">Услуги</p>
+            <h2 id="services-title" tabindex="-1">Уход за кузовом<br>и салоном</h2>
+          </div>
+          <p>От восстановления блеска лакокрасочного покрытия до глубокой очистки салона и защиты кузова.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card service-card--polish">
+            <img src="assets/images/polish.webp" alt="" width="850" height="510" loading="lazy" decoding="async">
+            <div class="service-copy">
+              <h3>Полировка кузова</h3>
+              <p>Уменьшаем заметность мелких рисок и возвращаем блеск лаку.</p>
+            </div>
+          </article>
+          <article class="service-card service-card--interior">
+            <img src="assets/images/interior.webp" alt="" width="850" height="510" loading="lazy" decoding="async">
+            <div class="service-copy">
+              <h3>Химчистка салона</h3>
+              <p>Очищаем текстиль, кожу и пластик средствами для каждого материала.</p>
+            </div>
+          </article>
+          <article class="service-card service-card--protection">
+            <img src="assets/images/protection.webp" alt="" width="850" height="510" loading="lazy" decoding="async">
+            <div class="service-copy">
+              <h3>Защитные покрытия</h3>
+              <p>Готовим кузов и наносим керамический состав для упрощения ухода.</p>
+            </div>
+          </article>
+          <article class="service-card service-card--complete">
+            <img src="assets/images/complete.webp" alt="" width="850" height="510" loading="lazy" decoding="async">
+            <div class="service-copy">
+              <h3>Комплексный уход</h3>
+              <p>Собираем программу ухода за кузовом и салоном после осмотра.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tonal" id="prices" aria-labelledby="prices-title">
+      <div class="shell">
+        <div class="section-head section-head--split">
+          <div>
+            <p class="eyebrow">Программы ухода</p>
+            <h2 id="prices-title" tabindex="-1">Демо-прайс</h2>
+          </div>
+          <p>Цены и состав программ приведены для демонстрации. Для реального заказа стоимость рассчитывают после осмотра.</p>
+        </div>
+        <div class="price-grid">
+          <article class="price-card">
+            <h3>Полировка</h3>
+            <p class="price"><small>от</small> 14 900 ₽</p>
+            <ul>
+              <li>Мойка и очистка кузова</li>
+              <li>Одноэтапная полировка</li>
+            </ul>
+            <a class="button button--outline" href="#contact" data-service="polish" aria-label="Выбрать полировку">Выбрать</a>
+          </article>
+          <article class="price-card">
+            <h3>Химчистка</h3>
+            <p class="price"><small>от</small> 9 900 ₽</p>
+            <ul>
+              <li>Чистка сидений и ковров</li>
+              <li>Очистка кожи и пластика</li>
+            </ul>
+            <a class="button button--outline" href="#contact" data-service="interior" aria-label="Выбрать химчистку">Выбрать</a>
+          </article>
+          <article class="price-card">
+            <h3>Защита кузова</h3>
+            <p class="price"><small>от</small> 19 900 ₽</p>
+            <ul>
+              <li>Подготовка покрытия</li>
+              <li>Нанесение керамики</li>
+            </ul>
+            <a class="button button--outline" href="#contact" data-service="protection" aria-label="Выбрать защиту кузова">Выбрать</a>
+          </article>
+          <article class="price-card price-card--featured">
+            <h3>Комплексный уход</h3>
+            <p class="price"><small>от</small> 34 900 ₽</p>
+            <ul>
+              <li>Полировка и химчистка</li>
+              <li>Защита кузова</li>
+            </ul>
+            <a class="button button--primary" href="#contact" data-service="complete" aria-label="Выбрать комплексный уход">Выбрать</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section studio" id="studio" aria-labelledby="studio-title">
+      <div class="shell studio-grid">
+        <figure class="studio-image">
+          <img src="assets/images/studio.webp" width="900" height="1050" alt="Линии кузова и задние фонари тёмного спортивного автомобиля" loading="lazy" decoding="async">
+          <figcaption>Иллюстративное фото</figcaption>
+        </figure>
+        <div class="studio-copy">
+          <p class="eyebrow">Подход студии</p>
+          <h2 id="studio-title" tabindex="-1">Качество видно<br>под светом</h2>
+          <dl class="studio-list">
+            <div>
+              <dt>Осмотр при направленном свете</dt>
+              <dd>Оцениваем состояние лака и салона, чтобы согласовать ожидаемый результат.</dd>
+            </div>
+            <div>
+              <dt>Подход к каждому материалу</dt>
+              <dd>Подбираем составы и инструмент для лака, кожи, текстиля и пластика.</dd>
+            </div>
+            <div>
+              <dt>Контроль перед выдачей</dt>
+              <dd>Проверяем обработанные поверхности и объясняем, как ухаживать за ними дальше.</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tonal" id="process" aria-labelledby="process-title">
+      <div class="shell">
+        <div class="section-head">
+          <p class="eyebrow">Этапы работы</p>
+          <h2 id="process-title" tabindex="-1">От осмотра до выдачи</h2>
+        </div>
+        <ol class="process-grid">
+          <li><span aria-hidden="true">01</span><h3>Заявка</h3><p>Уточняем задачу и состояние автомобиля по описанию.</p></li>
+          <li><span aria-hidden="true">02</span><h3>Осмотр</h3><p>Проверяем поверхности и согласовываем объём работ.</p></li>
+          <li><span aria-hidden="true">03</span><h3>Детейлинг</h3><p>Выполняем согласованные работы и проверяем результат.</p></li>
+          <li><span aria-hidden="true">04</span><h3>Выдача</h3><p>Показываем, что сделано, и даём рекомендации по уходу.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="shell faq-grid">
+        <div>
+          <p class="eyebrow">FAQ</p>
+          <h2 id="faq-title" tabindex="-1">Частые вопросы</h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>Как выбрать между полировкой и защитой?</summary>
+            <p>Полировка уменьшает заметность мелких дефектов лака. Защитный состав помогает дольше сохранять внешний вид подготовленной поверхности. Если кузов требует коррекции, полировку делают перед нанесением покрытия.</p>
+          </details>
+          <details>
+            <summary>Можно ли убрать глубокую царапину полировкой?</summary>
+            <p>Возможность коррекции зависит от глубины повреждения и запаса лака. Если царапина дошла до краски или грунта, может потребоваться локальный ремонт.</p>
+          </details>
+          <details>
+            <summary>От чего зависит стоимость химчистки?</summary>
+            <p>От размера салона, типа обивки, загрязнений и объёма работ. Цены на этой странице показывают примеры программ.</p>
+          </details>
+          <details>
+            <summary>Можно ли записаться через этот сайт?</summary>
+            <p>Форма показывает, как выглядела бы запись. Можно выбрать услугу и проверить заполнение полей, используя вымышленные данные. Действующей студии и бронирования нет.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="shell contact-grid">
+        <div class="contact-copy">
+          <p class="eyebrow">Контакты и запись</p>
+          <h2 id="contact-title" tabindex="-1">Подберите уход<br>для автомобиля</h2>
+          <p id="form-mode">VANTA DETAILING — вымышленная студия. В демонстрационной форме можно выбрать услугу и проверить заполнение заявки.</p>
+        </div>
+        <div class="form-panel" id="form-panel">
+          <noscript><p>Чтобы проверить форму, включите JavaScript в браузере.</p></noscript>
+          <form id="booking-form" aria-describedby="form-mode form-note" novalidate hidden>
+            <div class="field">
+              <label for="service">Услуга</label>
+              <select name="service" id="service" aria-describedby="service-error" required>
+                <option value="">Выберите услугу</option>
+                <option value="polish">Полировка кузова</option>
+                <option value="interior">Химчистка салона</option>
+                <option value="protection">Защитное покрытие</option>
+                <option value="complete">Комплексный уход</option>
+              </select>
+              <p class="field-error" id="service-error" hidden></p>
+            </div>
+            <div class="field">
+              <label for="name">Имя</label>
+              <input name="name" id="name" type="text" autocomplete="given-name" placeholder="Например, Алексей" maxlength="60" aria-describedby="name-error" required>
+              <p class="field-error" id="name-error" hidden></p>
+            </div>
+            <div class="field">
+              <label for="contact-value">Телефон или email</label>
+              <input name="contact" id="contact-value" type="text" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="Например, demo@example.com" maxlength="120" aria-describedby="form-note contact-error" required>
+              <p class="field-error" id="contact-error" hidden></p>
+            </div>
+            <button class="button button--primary" type="submit">Проверить заявку</button>
+            <p class="form-note" id="form-note">Используйте вымышленные данные. Они не сохраняются и не отправляются.</p>
+            <p class="form-status" id="form-status" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell">
+      <div class="footer-main">
+        <a class="brand" href="#top" aria-label="VANTA DETAILING, в начало страницы">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-text" aria-hidden="true">VANTA<small>DETAILING</small></span>
+        </a>
+        <p>Демонстрационный сайт для портфолио</p>
+        <a class="footer-top" href="#top">Наверх</a>
+      </div>
+      <details class="credits">
+        <summary>Источники фотографий</summary>
+        <p>Иллюстративные фотографии. <a href="https://unsplash.com/license">Лицензия Unsplash</a>.</p>
+        <ul class="credits-list">
+          <li>Первый экран · <a href="https://unsplash.com/photos/a-sleek-black-porsche-is-displayed-0-Il8Ct9Sz8">Luca Angilello</a></li>
+          <li>Полировка · <a href="https://unsplash.com/photos/the-front-of-a-black-porsche-eNBRrqfpPIg">Luke Miller</a></li>
+          <li>Химчистка · <a href="https://unsplash.com/photos/the-interior-of-a-car-with-a-steering-wheel-qNL7D80Rl-M">Graham Mansfield</a></li>
+          <li>Защита · <a href="https://unsplash.com/photos/close-up-of-water-droplets-on-a-dark-surface-7EMYjpQ4IG4">Ben Wicks</a></li>
+          <li>Комплексный уход · <a href="https://unsplash.com/photos/a-black-sports-car-parked-in-front-of-a-building-_c21lKtR9-M">Nejc Soklič</a></li>
+          <li>Подход студии · <a href="https://unsplash.com/photos/black-porsche-carrera-from-behind-Onll1-aGi8s">Hasnain Sikora</a></li>
+        </ul>
+      </details>
+    </div>
+  </footer>
+</body>
+</html>
